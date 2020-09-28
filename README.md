@@ -1,40 +1,24 @@
-# Books_Analysis
-Analysis of book data for Project 1
-
-Project Title: New York Times Book Analysis 
+# New York Times Book Analysis 
 Team Members: Catherine Smith, Jackson Yaggi, Molly Oesterling, Helena O'Farrow 
 
-Project Description: 
+## Project Description: 
   For this project, we will be analyzing data from a random list of books from the Google Books Dataset and we will be comparing different aspects of the list including price, publisher, and date to get understand the world of books. 
 
-Research Questions: 
+## Research Questions: 
   1. Does the number of pages of a book effect the number of the votes that the book recieves? - Molly 
-  2. Is there a publisher that publishes most books or most popular books? 
-  3. Does the amount of votes affect the overall rating of the book? - Catherine 
-  4. Do some publishers produce more expensive books? does more pages = more expensive? - Helena 
-  5. Do some publishers publish their books during a specific time of the year? - Jackson 
+  2. Does the amount of votes affect the overall rating of the book? - Catherine 
+  3. Do some publishers produce more expensive books? does more pages = more expensive? - Helena 
+  4. Do some publishers publish their books during a specific time of the year? - Jackson 
   
-Datasets to be used: 
-  CSV Files 
-  
-Rough Breakdown of Tasks:
-    The technical requirements for Project 1 are as follows.
+## Data Exploration
+Searched Kaggle and found a dataset with information on title, author, rating, number of voters, price, publisher, page count, genre, and publish date for approximately 1,000 books.
 
+## Cleanup Process
+  *  Removed a row of data that had an error for page count data
+  *  Dropped N/A rows
+  *  Dropped duplicate rows
 
-         Use Pandas to clean and format your data set(s): Helena
+## Analysis:
 
-
-         Create a Jupyter Notebook describing the data exploration and cleanup process: Catherine 
-
-
-         Use Matplotlib to create a total of 6-8 visualizations of your data (ideally, at least 2 per "question" you ask of your data): Each person choses a                  question to make visualizations for. 
-
-
-         Save PNG images of your visualizations to distribute to the class and instructional team, and for inclusion in your presentation: Everyone 
-
-         
-         Create a Jupyter Notebook illustrating the final data analysis: Everyone - broken down by question
-
-
-         Create a write-up summarizing your major findings. This should include a heading for each "question" you asked of your data, and under each heading, a              short description of what you found and any relevant plots.: Everyone submits information - Jackson and Molly create the formal writeup. 
-  
+### Vote Count vs. Rating - Catherine
+*  Hypothesis: If a book has more ratings, the average rating will be less extreme and have a lower standard deviation.
